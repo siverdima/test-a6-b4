@@ -4,7 +4,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { NgbModule, NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
-import { ToastrModule } from 'ngx-toastr';
 
 
 import { AppRoutingModule } from './app.routing';
@@ -22,8 +21,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     ComponentsModule,
     RouterModule,
     AppRoutingModule,
-    NgbModule.forRoot(),
-    ToastrModule.forRoot() // ToastrModule added
+    NgbModule.forRoot()
   ],
   declarations: [
     AppComponent,
